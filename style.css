@@ -1,0 +1,42 @@
+*, *:before, *:after {
+   box-sizing: border-box;
+   position: relative;	
+}
+
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;  	
+}
+body {
+	background: #eee;
+}
+main {
+	display: flex;
+	flex-flow: row wrap;
+	width: 75%;
+}
+section {
+	background: #fff;
+	padding: 15px;
+	margin: 6px;
+}
+.sec1 {
+	width: 65%;
+}
+.sec2 {
+	width: 32%;
+	display: flex;
+}
+.sec2 div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 5px;
+}
+.sec div img {
+	width: 83px;
+}
